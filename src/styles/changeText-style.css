@@ -1,0 +1,154 @@
+.change-text__section {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 33px 0 66px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.change-text__wrapper {
+    height: 80px;
+    background: #EBEBED;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    position: relative;
+}
+
+.change-text__input {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex: 1 1 0;
+    margin-left: 14px;
+}
+
+.empty-value {
+    border: 1px solid #FF0000;
+    box-sizing: border-box;
+    position: relative;
+    transition: 0s;
+}
+
+.empty-value::after {
+    content: 'The field is empty';
+    position: absolute;
+    bottom: -46px;
+    left: 0;
+    color: #FF0000;
+    line-height: 160%;
+    transition: 0s;
+}
+
+.change-text__input > input {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'e-Ukraine', sans-serif;
+}
+
+.green-btn {
+    background: #D0FC60;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.change-text__btn {
+    padding: 12px 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.change-text__btn:hover {
+    background: #FFFFFF;
+}
+
+/*///////////////////////////////////////////// - MEDIA - //////////////////////////////////////////////*/
+
+@media (max-width: 991px) {
+
+    .change-text__section {
+        padding: 22px 0 40px;
+    }
+
+    .change-text__wrapper {
+        height: 65px;
+    }
+
+    .change-text__btn {
+        padding: 11px 16px;
+    }
+
+    .empty-value::after {
+        bottom: -34px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .change-text__section {
+        padding: 22px 0 30px;
+    }
+
+    .change-text__wrapper {
+        height: 55px;
+    }
+
+    .change-text__btn {
+        padding: 10px 14px;
+        margin-left: 5px;
+    }
+
+    .green-btn {
+        font-size: 12px;
+    }
+
+    .change-text__input > input {
+        font-size: 14px;
+    }
+
+    .empty-value::after {
+        bottom: -26px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .change-text__section {
+        padding: 15px 0 25px;
+    }
+
+    .change-text__wrapper {
+        height: 45px;
+        padding: 0 10px;
+    }
+
+    .change-text__btn {
+        padding: 6px 8px;
+        margin-left: 5px;
+    }
+
+    .green-btn {
+        font-size: 10px;
+    }
+
+    .change-text__input > input {
+        font-size: 11px;
+        margin-left: -5px;
+    }
+
+    .empty-value::after {
+        bottom: -23px;
+        font-size: 10px;
+    }
+
+}

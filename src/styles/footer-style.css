@@ -1,0 +1,17 @@
+.footer {
+  background-color: lightgray;
+  padding: 14px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  max-width: unset !important;
+}
+
+.footer__wrapper p {
+  opacity: .7;
+  font-size: 13px;
+}

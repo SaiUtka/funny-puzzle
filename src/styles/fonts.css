@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Gwendolyn&family=Hubballi&family=Hurricane&display=swap');
+
+
+body {
+    font-family: 'e-Ukraine', sans-serif;
+}
+
+.hurricane {
+    font-family: 'Hurricane', cursive;
+}
+
+.hubballi {
+    font-family: 'Hubballi', cursive;
+}
+
+.gwendolyn {
+    font-family: 'Gwendolyn', cursive;
+}
+
+.grandHotel {
+    font-family: 'Grand Hotel', cursive
+}
+
+/*//////////////////////////////////////////// - Anastasia Script -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Anastasia Script";
+    src: local("Anastasia Script"),
+    url("../fonts/Anastasia Script.ttf") format("truetype");
+}
+
+.anastasiaScript {
+    font-family: 'Anastasia Script', cursive;
+    line-height: 90px;
+}
+
+/*//////////////////////////////////////////// - Brusher -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Brusher";
+    src: local("Brusher"),
+    url("../fonts/Brusher.ttf") format("truetype");
+}
+
+.brusher {
+    font-family: 'Brusher', cursive;
+}
+
+/*//////////////////////////////////////////// - Candy Butterfly -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Candy Butterfly";
+    src: local("CandyButterfly"),
+    url("../fonts/Candy Butterfly.ttf") format("truetype");
+}
+
+.candyButterfly {
+    font-family: 'Candy Butterfly', cursive;
+    line-height: 130px;
+}
+
+/*//////////////////////////////////////////// - Capinella ou Beaujoais -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Capinella ou Beaujoais";
+    src: local("CapinellaOuBeaujoais"),
+    url("../fonts/Capinella ou Beaujoais.ttf") format("truetype");
+}
+
+.capinellaOuBeaujoais {
+    font-family: 'Capinella ou Beaujoais', cursive;
+}
+
+/*//////////////////////////////////////////// - Cooper -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Cooper";
+    src: local("Cooper"),
+    url("../fonts/COOPBL.TTF") format("truetype");
+}
+
+.cooper {
+    font-family: 'Cooper', cursive;
+}
+
+/*//////////////////////////////////////////// - Debby -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Debby";
+    src: local("Debby"),
+    url("../fonts/Debby.ttf") format("truetype");
+}
+
+.debby {
+    font-family: 'Debby', cursive;
+}
+
+/*//////////////////////////////////////////// - Delisha Glande -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Delisha Glande";
+    src: local("DelishaGlande"),
+    url("../fonts/Delisha Glande.ttf") format("truetype");
+}
+
+.delishaGlande {
+    font-family: 'Delisha Glande', cursive;
+}
+
+/*//////////////////////////////////////////// - EmbassyBT -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "EmbassyBT";
+    src: local("EmbassyBT"),
+    url("../fonts/EmbassyBT.ttf") format("truetype");
+}
+
+.embassyBT {
+    font-family: 'EmbassyBT', cursive;
+}
+
+/*//////////////////////////////////////////// - Gabrielly -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Gabrielly";
+    src: local("Gabrielly"),
+    url("../fonts/Gabrielly.ttf") format("truetype");
+}
+
+.gabrielly {
+    font-family: 'Gabrielly', cursive;
+}
+
+/*//////////////////////////////////////////// - Girlish -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Girlish";
+    src: local("Girlish"),
+    url("../fonts/Girlish.otf") format("truetype");
+}
+
+.girlish {
+    font-family: 'Girlish', cursive;
+}
+
+/*//////////////////////////////////////////// - Granotta -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Granotta";
+    src: local("Granotta"),
+    url("../fonts/Granotta Regular.ttf") format("truetype");
+}
+
+.granotta {
+    font-family: 'Granotta', cursive;
+}
+
+/*//////////////////////////////////////////// - Hillary Youth -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Hillary Youth";
+    src: local("HillaryYouth"),
+    url("../fonts/Hillary Youth.ttf") format("truetype");
+}
+
+.hillaryYouth {
+    font-family: 'Hillary Youth', cursive;
+}
+
+/*//////////////////////////////////////////// - I Love Glitter -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "I Love Glitter";
+    src: local("ILoveGlitter"),
+    url("../fonts/I Love Glitter - TTF.ttf") format("truetype");
+}
+
+.iLoveGlitter {
+    font-family: 'I Love Glitter', cursive;
+}
+
+/*//////////////////////////////////////////// - Libertinage -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Libertinage";
+    src: local("Libertinage"),
+    url("../fonts/Libertinage.ttf") format("truetype");
+}
+
+.libertinage {
+    font-family: 'Libertinage', cursive;
+}
+
+/*//////////////////////////////////////////// - Lobster -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Lobster";
+    src: local("Lobster"),
+    url("../fonts/Lobster-Regular.ttf") format("truetype");
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
+/*//////////////////////////////////////////// - Magnolia Sky -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Magnolia Sky";
+    src: local("MagnoliaSky"),
+    url("../fonts/magnolia_sky.ttf") format("truetype");
+}
+
+.magnoliaSky {
+    font-family: 'Magnolia Sky', cursive;
+}
+
+/*//////////////////////////////////////////// - Masterics -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Masterics";
+    src: local("Masterics"),
+    url("../fonts/Masterics.ttf") format("truetype");
+}
+
+.masterics {
+    font-family: 'Masterics', cursive;
+}
+
+/*//////////////////////////////////////////// - Santa Story -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Santa Story";
+    src: local("SantaStory"),
+    url("../fonts/Santa Story ttf.ttf") format("truetype");
+}
+
+.santaStory {
+    font-family: 'Santa Story', cursive;
+}
+
+/*//////////////////////////////////////////// - Satherday -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Satherday";
+    src: local("Satherday"),
+    url("../fonts/Satherday.otf") format("truetype");
+}
+
+.satherday {
+    font-family: 'Satherday', cursive;
+}
+
+/*//////////////////////////////////////////// - Srinthile Script -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Srinthile Script";
+    src: local("SprinthileScript"),
+    url("../fonts/Srinthile Script.ttf") format("truetype");
+}
+
+.srinthileScript {
+    font-family: 'Srinthile Script', cursive;
+}
+
+/*//////////////////////////////////////////// - The Parkers -  ////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "The Parkers";
+    src: local("TheParkers"),
+    url("../fonts/VLADIMIR.TTF") format("truetype");
+}
+
+.theParkers {
+    font-family: 'The Parkers', cursive;
+}
+
+/*//////////////////////////////////////////// - Kaufmann -  ////////////////////////////////////////////*/
+
+@font-face {
+  font-family: "Kaufman";
+  src: local("Kaufman"),
+  url("../fonts/KAUFMANN.TTF") format("truetype");
+}
+
+.kaufmann {
+  font-family: 'Kaufman', cursive;
+}
+
+/*//////////////////////////////////////////// - Kunstler -  ////////////////////////////////////////////*/
+
+@font-face {
+  font-family: "Kunstler";
+  src: local("Kunstler"),
+  url("../fonts/KUNSTLER.TTF") format("truetype");
+}
+
+.kunstler {
+  font-family: 'Kunstler', cursive;
+}
+
+/*//////////////////////////////////////////// - Dope Style -  ////////////////////////////////////////////*/
+
+@font-face {
+  font-family: "Dope Style";
+  src: local("DopeStyle"),
+  url("../fonts/mr_DopestyleG.otf") format("opentype");
+}
+
+.dopestyle {
+  font-family: 'Dope Style', cursive;
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-Light.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-UltraLight.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-UltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-Medium.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-Regular.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-Bold.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('../fonts/e-Ukraine-Thin.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+

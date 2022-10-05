@@ -1,0 +1,137 @@
+.text-background__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    height: 37px;
+    overflow: hidden;
+    padding-bottom: 45px;
+}
+
+.bg-active {
+    height: 240px;
+}
+
+.text-background__btn {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+}
+
+.text-background__btn > .btn {
+    width: 37px;
+    height: 37px;
+    background: #EBEBED;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.text-background__btn > .btn svg {
+    font-size: 0;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.text-background__btn > .btn:hover svg{
+    font-size: 25px;
+    transition: 0.1s;
+    opacity: 1;
+}
+
+.text-background__btn > .bg-green {
+    background: #D0FC60;
+}
+
+.text-background__btn > .checked svg {
+    font-size: 25px;
+    opacity: 1;
+}
+
+.text-background__btn > .btn__title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.text-background__colors {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.background-colors__container {
+    width: 75%;
+    background: #EBEBED;
+    border-radius: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+/*///////////////////////////////////////////// - MEDIA - //////////////////////////////////////////////*/
+
+@media (max-width: 1199px) {
+
+    .background-colors__container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .background-colors__container {
+        width: 67%;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .background-colors__container {
+        width: 86%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .background-colors__container {
+        width: 100%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .text-background__btn {
+        column-gap: 10px;
+    }
+
+    .text-background__btn > .btn {
+        width: 28px;
+        height: 25px;
+    }
+
+    .text-background__btn > .btn:hover:before{
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+    .text-background__btn > .btn__title {
+        font-size: 14px;
+    }
+
+    .text-background__btn > .checked::before {
+        font-size: 15px;
+    }
+
+    .text-background__btn > . {
+        font-size: 15px;
+    }
+
+}
